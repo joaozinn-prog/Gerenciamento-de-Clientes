@@ -1,0 +1,99 @@
+
+h1 span#info {
+  color: #0077ff;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0045bb;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card-style {
+  max-width: 768px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.card-style h2 {
+  font-size: 1.5rem;
+  color: #0045bb;
+  border-bottom: 2px solid #0045bb;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+.report-panel {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.report-item {
+  background-color: #f0f4ff;
+  border-left: 5px solid #0045bb;
+  padding: 16px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.report-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 69, 187, 0.1);
+}
+
+.report-item button {
+  background-color: #0045bb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.report-item button:hover {
+  background-color: #003b9c;
+  transform: scale(1.03);
+}
+
+.report-item p {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0;
+}
+
+.report-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+
+.report-links li a {
+  text-decoration: none;
+  color: #0045bb;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.report-links li a:hover {
+  color: #002f7a;
+  text-decoration: underline;
+}

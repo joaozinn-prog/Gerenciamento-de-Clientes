@@ -58,3 +58,11 @@
 .container .btn:hover {
   background: #e5e5e5;
 }
+
+.title{
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
